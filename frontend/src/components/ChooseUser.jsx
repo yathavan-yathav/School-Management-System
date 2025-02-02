@@ -1,3 +1,4 @@
+import React from 'react';
 import { ChooseUserContainer, UserSection, Title, Button } from '../styles/ChooseUserStyles';
 import { Link } from 'react-router-dom';
 

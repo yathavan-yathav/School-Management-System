@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { TeacherSignContainer, FormContainer, InputField, SubmitButton } from '../styles/TeacherSignInStyles';
 
-const TeacherRegister = () => {
+const TeacherSignIn = () => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     const hanldeSignIn = () => {
-        console.log('Teacher Sign In', {email, password});
+        console.log('Teacher Sign In:', {email, password});
     };
     
     return (

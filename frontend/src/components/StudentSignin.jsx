@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { StudentSignContainer, FormContainer, InputField, SubmitButton } from '../styles/StudentSignInStyles';
 
-const StudentRegister = () => {
+const StudentSignIn = () => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     const hanldeSignIn = () => {
-        console.log('Student Sign In', {email, password});
+        console.log('Student Sign In:', {email, password});
     };
     
     return (
@@ -31,7 +31,7 @@ const StudentRegister = () => {
                 <SubmitButton to="/student/dashboard" onClick={hanldeSignIn} >Sign In</SubmitButton>
             </FormContainer>
         </StudentSignContainer>
-    )
-}
+    );
+};
 
 export default StudentSignIn;

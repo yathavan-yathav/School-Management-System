@@ -22,8 +22,8 @@ const Home = ()=> {
    
     const handleLoginClick = () => {
         navigate('/choose-user');
-
     };
+
     return (
         <>
         <Navbar>
@@ -51,7 +51,7 @@ const Home = ()=> {
             <SchoolImage src= {bg} alt="pupils"/>
         </HomeContainer>
         </>
-    )
+    );
 };
 
 export default Home;
