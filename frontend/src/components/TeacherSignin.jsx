@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TeacherSignContainer, FormContainer, InputField, SubmitButton } from '../styles/TeacherSignInStyles';
+import { TeacherSignInContainer, FormContainer, InputField, SubmitButton } from '../styles/TeacherSignInStyles';
 
 const TeacherSignIn = () => {
 
@@ -11,7 +11,7 @@ const TeacherSignIn = () => {
     };
     
     return (
-        <TeacherSignContainer>
+        <TeacherSignInContainer>
             <h2>Teacher Sign In</h2>
             <FormContainer>
                 <InputField 
@@ -30,7 +30,7 @@ const TeacherSignIn = () => {
                 />
                 <SubmitButton to="/teacher/dashboard" onClick={hanldeSignIn} >Sign In</SubmitButton>
             </FormContainer>
-        </TeacherSignContainer>
+        </TeacherSignInContainer>
     )
 }
 

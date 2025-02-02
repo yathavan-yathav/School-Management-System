@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StudentSignContainer, FormContainer, InputField, SubmitButton } from '../styles/StudentSignInStyles';
+import { StudentSignInContainer, FormContainer, InputField, SubmitButton } from '../styles/StudentSignInStyles';
 
 const StudentSignIn = () => {
 
@@ -11,7 +11,7 @@ const StudentSignIn = () => {
     };
     
     return (
-        <StudentSignContainer>
+        <StudentSignInContainer>
             <h2>Student Sign In</h2>
             <FormContainer>
                 <InputField 
@@ -30,7 +30,7 @@ const StudentSignIn = () => {
                 />
                 <SubmitButton to="/student/dashboard" onClick={hanldeSignIn} >Sign In</SubmitButton>
             </FormContainer>
-        </StudentSignContainer>
+        </StudentSignInContainer>
     );
 };
 
