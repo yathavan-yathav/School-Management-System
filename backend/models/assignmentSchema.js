@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
-import validator, { isLowercase } from "validator";
+
+
+
 
 const assignmentSchema = new mongoose.Schema({
     title: {

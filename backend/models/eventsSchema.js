@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import validator from "validator";
+
 
 
 const eventsSchema = new mongoose.Schema({
@@ -10,4 +10,4 @@ const eventsSchema = new mongoose.Schema({
 
 });
 
-export const Event = mongoose.model('Events', eventsSchema);
+export const Events = mongoose.model('Events', eventsSchema);

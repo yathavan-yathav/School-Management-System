@@ -1,4 +1,3 @@
-
 import express from "express";
 import {config} from 'dotenv';
 import cors from "cors";
@@ -13,8 +12,8 @@ import libraryRouter from "./router/libraryRouter.js";
 import eventsRouter from "./router/eventsRouter.js";
 import examRouter from "./router/examRouter.js";
 import attendanceRouter from "./router/attendanceRouter.js";
-import usersRouter from "./router/usersRouter.js"
-import adminRegisterRouter from "./router/adminRegisterRouter.js"
+import usersRouter from "./router/usersRouter.js";
+import adminRegisterRouter from "./router/adminRegisterRouter.js";
 import  { errorHandler } from "./middlewares/errorHandler.js";
 
 

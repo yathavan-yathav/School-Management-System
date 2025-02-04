@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import validator from "validator";
+
 
 const librarySchema = new mongoose.Schema({
     bookname: {
