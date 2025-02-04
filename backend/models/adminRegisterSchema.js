@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import validator, { isLowercase } from "validator";
+import validator from "validator";
+const { isLowercase } = validator;
 
 const adminRegisterSchema = new mongoose.Schema({
     email: {

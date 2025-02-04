@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import validator from "validator";
 
-const usersSchema = new mongoose.model({
+const usersSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
